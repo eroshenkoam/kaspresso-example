@@ -1,0 +1,103 @@
+{
+    "name": "incrementButtonShouldIncreaseCounterValue",
+    "start": 1682355803215,
+    "stop": 1682355804644,
+    "stage": "finished",
+    "description": null,
+    "descriptionHtml": null,
+    "status": "broken",
+    "statusDetails": {
+        "message": "No such file or directory",
+        "trace": "java.io.IOException: No such file or directory\n\tat java.io.UnixFileSystem.createFileExclusively0(Native Method)\n\tat java.io.UnixFileSystem.createFileExclusively(UnixFileSystem.java:317)\n\tat java.io.File.createNewFile(File.java:1008)\n\tat com.kaspersky.kaspresso.internal.extensions.other.FileExtKt.createFileIfNeeded(FileExt.kt:29)\n\tat com.kaspersky.kaspresso.files.resources.impl.DefaultResourceFilesProvider.provideVideoFile(DefaultResourceFilesProvider.kt:47)\n\tat com.kaspersky.components.alluresupport.files.resources.impl.AllureResourceFilesProvider.provideVideoFile(Unknown Source:7)\n\tat com.kaspersky.kaspresso.files.resources.ResourceFilesProvider$DefaultImpls.provideVideoFile$default(ResourceFilesProvider.kt:11)\n\tat com.kaspersky.kaspresso.device.video.VideosImpl.record(VideosImpl.kt:15)\n\tat com.kaspersky.components.alluresupport.interceptors.testrun.HackyVideoRecordingTestInterceptor.onTestStarted(HackyVideoRecordingTestInterceptor.kt:22)\n\tat com.kaspersky.kaspresso.interceptors.watcher.testcase.impl.composite.TestRunCompositeWatcherInterceptor.onTestStarted(TestRunCompositeWatcherInterceptor.kt:37)\n\tat com.kaspersky.kaspresso.testcases.core.TestRunner.run(TestRunner.kt:47)\n\tat com.kaspersky.kaspresso.testcases.core.sections.MainTestSection.run(MainTestSection.kt:29)\n\tat com.kaspersky.kaspresso.testcases.api.testcase.BaseTestCase.run(BaseTestCase.kt:92)\n\tat com.kaspersky.kaspresso.testcases.api.testcase.BaseTestCase.run$default(BaseTestCase.kt:87)\n\tat qa.guru.kaspresso.IncrementButtonTest.incrementButtonShouldIncreaseCounterValue(IncrementButtonTest.kt:19)\n\tat java.lang.reflect.Method.invoke(Native Method)\n\tat org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)\n\tat org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\n\tat org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)\n\tat org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\n\tat org.junit.rules.ExternalResource$1.evaluate(ExternalResource.java:54)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)\n\tat org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:115)\n\tat androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:67)\n\tat androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:58)\n\tat androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:446)\n\tat android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2189)\n"
+    },
+    "steps": [
+        {
+            "name": "Increase counter value to 2",
+            "start": 1682355803581,
+            "stop": 1682355804337,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+                {
+                    "source": "5d11b148-a55c-4d38-bd07-17d2e55852cb-attachment.png",
+                    "name": "IncrementButtonTest_step_1.png",
+                    "type": "image/png"
+                }
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Counter value should be 2",
+            "start": 1682355804337,
+            "stop": 1682355804436,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+                {
+                    "source": "daf45063-0507-4261-b930-ecd51bd3d4e8-attachment.png",
+                    "name": "IncrementButtonTest_step_2.png",
+                    "type": "image/png"
+                }
+            ],
+            "parameters": [
+            ]
+        }
+    ],
+    "attachments": [
+        {
+            "source": "068eb8e0-6bcd-4fb2-8991-27b55e4da82d-attachment.txt",
+            "name": "TestLogcat.txt",
+            "type": "text/plain"
+        }
+    ],
+    "parameters": [
+    ],
+    "uuid": "ba8fb450-2e4e-45c1-8055-eaca071dd2b6",
+    "historyId": "363a0f1bd6dd9736686131b52654e5aa",
+    "fullName": "qa.guru.kaspresso.IncrementButtonTest.incrementButtonShouldIncreaseCounterValue",
+    "labels": [
+        {
+            "name": "package",
+            "value": "qa.guru.kaspresso"
+        },
+        {
+            "name": "testClass",
+            "value": "qa.guru.kaspresso.IncrementButtonTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "incrementButtonShouldIncreaseCounterValue"
+        },
+        {
+            "name": "suite",
+            "value": "qa.guru.kaspresso.IncrementButtonTest"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: com.kaspersky.kaspresso.runner.KaspressoRunner(585)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        }
+    ]
+}

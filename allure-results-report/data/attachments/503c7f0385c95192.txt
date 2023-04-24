@@ -1,0 +1,29 @@
+--------- beginning of main
+04-24 20:04:56.113 12799 12830 I KASPRESSO: ___________________________________________________________________________
+04-24 20:04:56.114 12799 12830 I KASPRESSO: Logcat buffer may be dumped from 04-24 20:04:56.113
+04-24 20:04:56.115 12799 12830 I KASPRESSO: ---------------------------------------------------------------------------
+04-24 20:04:56.116 12799 12830 I KASPRESSO: BEFORE TEST SECTION
+04-24 20:04:56.116 12799 12830 I KASPRESSO: ---------------------------------------------------------------------------
+04-24 20:04:56.116 12799 12830 I KASPRESSO: ---------------------------------------------------------------------------
+04-24 20:04:56.116 12799 12830 I KASPRESSO: TEST SECTION
+04-24 20:04:56.116 12799 12830 I KASPRESSO: ---------------------------------------------------------------------------
+04-24 20:04:56.116 12799 12830 I KASPRESSO: ___________________________________________________________________________
+04-24 20:04:56.116 12799 12830 I KASPRESSO: TEST STEP: "1. Increase counter value to 2" in IncrementButtonTest
+04-24 20:04:56.126 12799 12799 I KASPRESSO: single click on MaterialButton(id=increment;text=Increment;)
+04-24 20:04:56.442 12799 12799 I KASPRESSO: single click on MaterialButton(id=increment;text=Increment;)
+04-24 20:04:56.775 12799 12830 I KASPRESSO: TEST STEP: "1. Increase counter value to 2" in IncrementButtonTest SUCCEED. It took 0 minutes, 0 seconds and 658 millis. 
+04-24 20:04:56.775 12799 12830 I KASPRESSO: ___________________________________________________________________________
+04-24 20:04:56.898 12799 12830 I KASPRESSO: Screenshot saved to /data/user/0/qa.guru.kaspresso/files/screenshots/qa.guru.kaspresso.IncrementButtonTest/incrementButtonShouldIncreaseCounterValue/IncrementButtonTest_step_1.png
+04-24 20:04:56.898 12799 12830 I KASPRESSO: ___________________________________________________________________________
+04-24 20:04:56.898 12799 12830 I KASPRESSO: TEST STEP: "2. Counter value should be 2" in IncrementButtonTest
+04-24 20:04:56.900 12799 12799 I KASPRESSO: Check an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Count: 2" on MaterialTextView(id=counter;text=Count: 2;)
+04-24 20:04:56.901 12799 12830 I KASPRESSO: TEST STEP: "2. Counter value should be 2" in IncrementButtonTest SUCCEED. It took 0 minutes, 0 seconds and 3 millis. 
+04-24 20:04:56.901 12799 12830 I KASPRESSO: ___________________________________________________________________________
+04-24 20:04:56.998 12799 12830 I KASPRESSO: Screenshot saved to /data/user/0/qa.guru.kaspresso/files/screenshots/qa.guru.kaspresso.IncrementButtonTest/incrementButtonShouldIncreaseCounterValue/IncrementButtonTest_step_2.png
+04-24 20:04:56.998 12799 12830 I KASPRESSO: ---------------------------------------------------------------------------
+04-24 20:04:56.998 12799 12830 I KASPRESSO: AFTER TEST SECTION
+04-24 20:04:56.998 12799 12830 I KASPRESSO: ---------------------------------------------------------------------------
+04-24 20:04:56.998 12799 12830 I KASPRESSO: ---------------------------------------------------------------------------
+04-24 20:04:56.998 12799 12830 I KASPRESSO: TEST PASSED
+04-24 20:04:56.998 12799 12830 I KASPRESSO: ---------------------------------------------------------------------------
+04-24 20:04:57.002 12799 12830 I KASPRESSO: Dump logcat buffer to /data/user/0/qa.guru.kaspresso/files/logcat/qa.guru.kaspresso.IncrementButtonTest/incrementButtonShouldIncreaseCounterValue/TestLogcat.txt: logcat -b default -d -t "04-24 20:04:56.113" -s "KASPRESSO","KASPRESSO_TEST"

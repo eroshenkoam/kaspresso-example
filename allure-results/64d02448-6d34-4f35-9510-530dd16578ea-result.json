@@ -1,0 +1,105 @@
+{
+    "name": "incrementButtonShouldIncreaseCounterValue",
+    "start": 1682356065809,
+    "stop": 1682356072427,
+    "stage": "finished",
+    "description": null,
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [
+        {
+            "name": "Increase counter value to 2",
+            "start": 1682356069224,
+            "stop": 1682356070062,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+                {
+                    "source": "a35ea733-fa67-4dca-94cc-9d7e0dfbd7fd-attachment.png",
+                    "name": "IncrementButtonTest_step_1.png",
+                    "type": "image/png"
+                }
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Counter value should be 2",
+            "start": 1682356070062,
+            "stop": 1682356070162,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+                {
+                    "source": "0cd944d4-4882-49ef-b9cf-70f1f505ca42-attachment.png",
+                    "name": "IncrementButtonTest_step_2.png",
+                    "type": "image/png"
+                }
+            ],
+            "parameters": [
+            ]
+        }
+    ],
+    "attachments": [
+        {
+            "source": "5efbd553-0426-45d9-8269-30b0181638ef-attachment.txt",
+            "name": "TestLogcat.txt",
+            "type": "text/plain"
+        },
+        {
+            "source": "9fa1a29b-9cd2-4552-80f8-217d3719a957-attachment.mp4",
+            "name": "Video_IncrementButtonTest.mp4",
+            "type": "video/mp4"
+        }
+    ],
+    "parameters": [
+    ],
+    "uuid": "64d02448-6d34-4f35-9510-530dd16578ea",
+    "historyId": "363a0f1bd6dd9736686131b52654e5aa",
+    "fullName": "qa.guru.kaspresso.IncrementButtonTest.incrementButtonShouldIncreaseCounterValue",
+    "labels": [
+        {
+            "name": "package",
+            "value": "qa.guru.kaspresso"
+        },
+        {
+            "name": "testClass",
+            "value": "qa.guru.kaspresso.IncrementButtonTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "incrementButtonShouldIncreaseCounterValue"
+        },
+        {
+            "name": "suite",
+            "value": "qa.guru.kaspresso.IncrementButtonTest"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: com.kaspersky.kaspresso.runner.KaspressoRunner(640)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        }
+    ]
+}

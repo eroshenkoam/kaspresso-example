@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Mon Apr 24 20:12:28 MSK 2023","Mon Apr 24 20:12:46 MSK 2023","17939","","qa.guru.kaspresso.IncrementButtonTest","","qa.guru.kaspresso.IncrementButtonTest","incrementButtonShouldIncreaseCounterValue","incrementButtonShouldIncreaseCounterValue",""
