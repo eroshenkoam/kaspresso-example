@@ -18,4 +18,4 @@ jobs:
           distribution: 'zulu'
           java-version: '17'
           cache: 'gradle'
-      - run: ./gradlew clean build
+      - run: ./gradlew clean connectedCheck
